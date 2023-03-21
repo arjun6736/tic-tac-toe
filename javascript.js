@@ -18,7 +18,7 @@ function boxclicked(e){
         e.target.innerText = currentplayer
         if(playerhaswon() !== false){
             boxes.forEach(box => box.removeEventListener('click', boxclicked))
-            text.innerHTML = "'"+currentplayer+"'"+' has WON'
+            text.innerHTML = "'"+currentplayer+"'"+' WON'
             resetbtn.innerHTML= 'New game'
             console.log('you won');
         }
