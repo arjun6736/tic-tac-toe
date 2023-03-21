@@ -49,6 +49,7 @@ function reset(){
     currentplayer=X_TEXT
     boxes.forEach(box => box.addEventListener('click', boxclicked))
     resetbtn.innerHTML= 'reset'
+    text.innerHTML='Tic-Tac-Toe'
 }
 
 start();
