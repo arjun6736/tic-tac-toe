@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 }
 h1 {
   margin-top: 150px;
-  color: beige;
+  color: rgb(233, 182, 44);
   margin-bottom: 20px;
   font-weight: 100;
 }
@@ -48,8 +48,8 @@ button:hover {
   width: 80px;
   display: flex;
   float: right;
-  border-bottom: 2px solid white;
-  border-right: 2px solid white;
+  border-bottom: 2px solid rgb(45, 111, 150);
+  border-right: 2px solid rgb(45, 111, 150);
   cursor: pointer;
 }
 .box:hover {
@@ -74,4 +74,11 @@ button:hover {
 }
 .reset:active {
   transform: translateY(3px);
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(255, 81, 0);
 }
